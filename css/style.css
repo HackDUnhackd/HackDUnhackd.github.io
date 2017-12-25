@@ -1,183 +1,68 @@
-html{
-    overflow: initial;
-}
-body{
-    font-family: 'Work Sans', sans-serif;
-}
 #intro{
-    background-color: rgba(58, 127, 206, 0.849) ;
-    height: 93%;
+    height: 95%;
+    width: 100%;
     position: relative;
 }
-
-#build{
-    background-color: rgb(245, 3, 3); 
-    height: 100%;
+#about{
+    height: auto;
+    width: 100%;
     position: relative;
-    overflow: hidden;
 }
-#challenges{
+#challenge{
+    margin-top: -20px;
+    height: auto;
+    width: 100%;
     position: relative;
-    background-color: rgb(102, 104, 117);
-    height: 100%;
+    
 }
 #sponsorship{
+    width: 100%;
+    height:auto;
     position: relative;
-    background-color: rgb(82, 243, 95);
-    height: 100%;
+    margin-top: -20px;
 }
-.my-image{
-    height: 40%;
-    margin-top:25px;
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+.my-s{
+    margin-top:-20px
 }
-.resp-image{
-    max-height: 240px;
-    max-width: 240px;
-}
-.stripe{
-    position: absolute;
-    display: inline-block;
-    min-width: 40%;
+.sponsorship-img{
+    width:70%;
     height: auto;
-    text-align: center;
 }
-.stripe-left{
-    left: 0px;
-    float: inherit;
+.sponsorship-borochure-img{
+    width: 5%;
+    height: auto;
 }
-.stripe-right{
-    padding-right: 10px;
-    padding-left: 5px;
-    right: 0px;
-    float: inherit;
-}
-.stripe-bottom{
-    bottom: 0px;
-}
-.stripe-center{
-    left: 20%;
-    right: 20%;
-}
-.stripe-quote{
-    text-align: right;
-    text-align: center;
-}
-.title{
-    font-size:2em;
-}
-.quote{
-    font-size: 1.3em;
-}
-.image-left-middle{
-    position: absolute;
-    left: 75px;
-    bottom: 25%;
-}
-.image-left-middle-1{
-    position: absolute;
-    left: 260px;
-    bottom: 25%;
-}
-.image-left-bottom{
-    position: absolute;
-    left: 75px;
-    bottom: 5%;
-}
-.image-left-middle-2{
-    position: absolute;
-    left: 160px;
-    bottom: 30%;
-}
-.image-left-bottom-1{
-    position: absolute;
-    left: 260px;
-    bottom: 5%;
-}
-.image-right-middle{
-    position: absolute;
-    right: 75px;
-    bottom: 40%;
-}
-.image-right-middle-1{
-    position: absolute;
-    right: 260px;
-    bottom: 40%;
-}
-.image-right-top{
-    position: absolute;
-    right: 125px;
-    top: 50px;
-}
-.image-hack{
-    max-height: 160px;
-    max-width: 160px;
-}
-.description-right{
-    font-size: 20px;   
-    position: absolute;
-    display: inline-block;
-    right: 37px;
-    width: 50%;
-    text-align: right;
-}
-.description-right-middle{
-    font-size: 20px;   
-    position: absolute;
-    display: inline-block;
-    right: 120px;
-    width: 50%;
-    text-align: right;
-    top: 60%;
-}
-.description-left-middle{
-    font-size: 20px;   
-    position: absolute;
-    display: inline-block;
-    left: 37px;
-    text-align: left;
-    top:20%;
-    width: 50%;
-}
-.description-left-bottom{
-    font-size: 20px;   
-    position: absolute;
-    display: inline-block;
-    left: 37px;
-    text-align: left;
-    bottom:-3px;
-    max-width: 35%;
-}
-.border-round-right-top{
+.round-top-right{
     border-top-right-radius: 50%;
 }
-.border-round-right-bottom{
-    border-bottom-right-radius: 50%;
-}
-.border-round-left-top{
+.round-top-left{
     border-top-left-radius: 50%;
 }
-.border-round-left-bottom{
+.round-bottom-right{
+    border-bottom-right-radius: 50%;
+}
+.round-bottom-left{
     border-bottom-left-radius: 50%;
 }
-.blue-shade{
-    background-color: rgb(125, 184, 233);
-}
-.red-shade{
-    background-color: rgb(226, 153, 153);
-}
-.grey-shade{
-    background-color: rgb(192, 189, 189);
+.rounded-complete{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
 }
 .grey-shade-rounded{
     background-color: rgb(192, 189, 189);
-    border-radius: 50%;
-    
+    border-radius: 50%;   
 }
-.green-shade{
-    background-color: rgb(165, 245, 185);
+.menu-image{
+    width: 240px;
+    height: auto;
 }
+.nav-bar-img{
+    width: 24%;
+    height:auto;
+}
+
 @keyframes focus {
     from {
       transform: translateY(-1px);
@@ -215,3 +100,64 @@ body{
     transform-origin: 15% 87%;
   }
   
+.stripe{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    text-align: center;
+}
+.stripe-left{
+    left: 0px;
+    float: inherit;
+}
+.stripe-right{
+    padding-right: 10px;
+    padding-left: 5px;
+    right: 0px;
+    float: inherit;
+}
+.stripe-bottom{
+    bottom: 0px;
+}
+.stripe-quote{
+    text-align: center;
+}
+.quote{
+    font-size: 1.3em;
+}
+.description{
+    font-size: 1.2em;
+    color: white;
+    text-align: justify;
+}
+.grey-color{
+    background-color: rgb(102, 104, 117);
+}
+.red-shade{
+    background-color: rgba(240, 90, 90, 0.829);
+}
+.grey-shade{
+    background-color: rgb(192, 189, 189);
+}
+.green-shade{
+    background-color: rgba(150, 241, 170, 0.548);
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color:white;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(top, rgb(33, 121, 202) 25%, red 50%, rgb(102, 104, 117) 75%, #008080 100%);
+    background-repeat: no-repeat;
+}
