@@ -1,0 +1,217 @@
+html{
+    overflow: initial;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+#intro{
+    background-color: rgba(58, 127, 206, 0.849) ;
+    height: 93%;
+    position: relative;
+}
+
+#build{
+    background-color: rgb(245, 3, 3); 
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#challenges{
+    position: relative;
+    background-color: rgb(102, 104, 117);
+    height: 100%;
+}
+#sponsorship{
+    position: relative;
+    background-color: rgb(82, 243, 95);
+    height: 100%;
+}
+.my-image{
+    height: 40%;
+    margin-top:25px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.resp-image{
+    max-height: 240px;
+    max-width: 240px;
+}
+.stripe{
+    position: absolute;
+    display: inline-block;
+    min-width: 40%;
+    height: auto;
+    text-align: center;
+}
+.stripe-left{
+    left: 0px;
+    float: inherit;
+}
+.stripe-right{
+    padding-right: 10px;
+    padding-left: 5px;
+    right: 0px;
+    float: inherit;
+}
+.stripe-bottom{
+    bottom: 0px;
+}
+.stripe-center{
+    left: 20%;
+    right: 20%;
+}
+.stripe-quote{
+    text-align: right;
+    text-align: center;
+}
+.title{
+    font-size:2em;
+}
+.quote{
+    font-size: 1.3em;
+}
+.image-left-middle{
+    position: absolute;
+    left: 75px;
+    bottom: 25%;
+}
+.image-left-middle-1{
+    position: absolute;
+    left: 260px;
+    bottom: 25%;
+}
+.image-left-bottom{
+    position: absolute;
+    left: 75px;
+    bottom: 5%;
+}
+.image-left-middle-2{
+    position: absolute;
+    left: 160px;
+    bottom: 30%;
+}
+.image-left-bottom-1{
+    position: absolute;
+    left: 260px;
+    bottom: 5%;
+}
+.image-right-middle{
+    position: absolute;
+    right: 75px;
+    bottom: 40%;
+}
+.image-right-middle-1{
+    position: absolute;
+    right: 260px;
+    bottom: 40%;
+}
+.image-right-top{
+    position: absolute;
+    right: 125px;
+    top: 50px;
+}
+.image-hack{
+    max-height: 160px;
+    max-width: 160px;
+}
+.description-right{
+    font-size: 20px;   
+    position: absolute;
+    display: inline-block;
+    right: 37px;
+    width: 50%;
+    text-align: right;
+}
+.description-right-middle{
+    font-size: 20px;   
+    position: absolute;
+    display: inline-block;
+    right: 120px;
+    width: 50%;
+    text-align: right;
+    top: 60%;
+}
+.description-left-middle{
+    font-size: 20px;   
+    position: absolute;
+    display: inline-block;
+    left: 37px;
+    text-align: left;
+    top:20%;
+    width: 50%;
+}
+.description-left-bottom{
+    font-size: 20px;   
+    position: absolute;
+    display: inline-block;
+    left: 37px;
+    text-align: left;
+    bottom:-3px;
+    max-width: 35%;
+}
+.border-round-right-top{
+    border-top-right-radius: 50%;
+}
+.border-round-right-bottom{
+    border-bottom-right-radius: 50%;
+}
+.border-round-left-top{
+    border-top-left-radius: 50%;
+}
+.border-round-left-bottom{
+    border-bottom-left-radius: 50%;
+}
+.blue-shade{
+    background-color: rgb(125, 184, 233);
+}
+.red-shade{
+    background-color: rgb(226, 153, 153);
+}
+.grey-shade{
+    background-color: rgb(192, 189, 189);
+}
+.grey-shade-rounded{
+    background-color: rgb(192, 189, 189);
+    border-radius: 50%;
+    
+}
+.green-shade{
+    background-color: rgb(165, 245, 185);
+}
+@keyframes focus {
+    from {
+      transform: translateY(-1px);
+    }
+    to {
+      transform: translateY(1px);
+    }
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  #hackathon {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+  }
+  
+  #person-left .head {
+    animation: focus 1s infinite alternate linear;
+  }
+  
+  #clock #hourhand {
+    animation: rotate 5s infinite linear;
+    transform-origin: 50% 87%;
+  }
+  #clock #minutehand {
+    animation: rotate 2s infinite linear;
+    transform-origin: 15% 87%;
+  }
+  
