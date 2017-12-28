@@ -1,0 +1,42 @@
+
+/* 
+Source : https://codepen.io/ashmind/pen/zqaqpB
+Some modification applied to code
+
+*/
+#main-body{
+    display: none;
+}
+.loader{
+ width: 100%;
+ height: 100%;
+ background-color:#2196F3;
+ align-items: center;
+ justify-content: center;
+}
+.loader-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.item{
+    font-size: 10vh;
+    color: white;
+    animation: pulse 0.5s alternate infinite ease-in-out;
+}
+@-webkit-keyframes pulse{
+    to{
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+}
+
+@keyframes pulse{
+    to{
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+}
