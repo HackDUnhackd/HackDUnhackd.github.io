@@ -30,7 +30,7 @@
 }
 #timeline{
     width: 100%;
-    height: 40%;
+    height: auto;
     letter-spacing: 3px;
 }
 .my-s{
@@ -178,3 +178,59 @@
     background-image: -webkit-linear-gradient(top, rgb(33, 121, 202) 25%, red 50%, rgb(102, 104, 117) 75%, #008080 100%);
     background-repeat: no-repeat;
 }
+
+.parent{
+    
+    height: 500px;
+  }
+  
+  .gear{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: #fff;
+    border-radius: 50%;
+    animation-name: spin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  .gear .center{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+    background: #9c27b0;
+    border-radius: 50%;
+  }
+  
+  .tooth{
+    position: absolute;
+    top: -25px;
+    left: 75px;
+    z-index: 1;
+    width: 45px;
+    height: 250px;
+    background:#fff;
+  }
+  
+  .tooth:nth-child(2){
+    transform: rotate(45deg);
+  }
+  
+  .tooth:nth-child(3){
+    transform: rotate(90deg);
+  }
+  
+  .tooth:nth-child(4){
+    transform: rotate(135deg);
+  }
+  
+  @keyframes spin {
+    from {transform: rotate(0deg); }
+    to {transform: rotate(360deg);}
+  }
