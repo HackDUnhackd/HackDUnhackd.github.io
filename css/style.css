@@ -23,6 +23,14 @@
     position: relative;
     margin-top: -20px;
 }
+#faqs{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.question-panel{
+     
+}
 #registration{
     width: 100%;
     height: 40%;
@@ -238,3 +246,5 @@
     from {transform: rotate(0deg); }
     to {transform: rotate(360deg);}
   }
+
+  

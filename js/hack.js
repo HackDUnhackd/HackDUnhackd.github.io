@@ -3,6 +3,7 @@ $(document).ready(function(){
     $('.parallax').parallax();
 
 });
+
 /*
 $(document).on('click', 'a[href^="#"]', function(e){
     var id = $(this).attr(href);
