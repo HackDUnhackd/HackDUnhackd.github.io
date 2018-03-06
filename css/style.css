@@ -3,7 +3,7 @@
 }
 
 #intro{
-    height: 95%;
+    height: auto;
     width: 100%;
     position: relative;
 }
@@ -37,7 +37,7 @@
 }
 #registration{
     width: 100%;
-    height: 40%;
+    height: auto;
     letter-spacing: 3px;
 }
 #timeline{
